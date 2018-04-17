@@ -1,11 +1,6 @@
 <template>
   <div id="landing">
     <img src="./assets/logo.png">
-    <p>
-    "welcome to your test thing"
-    </p>
-    <br>
-    <br>
   <cdr-button>Here's your button</cdr-button>
 
   </div>
