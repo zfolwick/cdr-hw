@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import Button from './components/Button'
 
 Vue.config.productionTip = false
 
@@ -10,7 +11,7 @@ Vue.config.productionTip = false
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
-  components: { App },
-  template: '<App/>',
+  components: { App, Button },
+  template: '<Button/>',
   router,
 })
