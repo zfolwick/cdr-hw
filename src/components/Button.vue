@@ -10,7 +10,7 @@
 import { CdrButton } from 'cedar';
 
 // option 2
-import * as cedarComps from 'cedar';
+//import * as cedarComps from 'cedar';
 
 export default {
   name: 'Button',
@@ -18,7 +18,7 @@ export default {
   	// option 1
   	CdrButton,
   	// option 2
-  	...cedarComps
+  	//...cedarComps
   },
   data () {
     return {
